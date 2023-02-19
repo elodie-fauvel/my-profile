@@ -1,0 +1,103 @@
+/* Colors and fonts */
+
+body {
+background: rgb(230, 230, 230);
+color: rgb(30, 30, 30);
+font-family: font-family: 'Titillium Web', sans-serif;
+font-size: 16px;
+}
+
+h1, h2, h3 {
+	font-family: font-family: 'Noto Serif', serif;
+}
+
+h1 {
+color: #3C6255;
+font-size: 32px;
+font-weight: 0,700;
+}
+
+h2 {
+color: #61876E;
+font-size: 24px;
+font-weight: 1,400;
+}
+
+a {
+	font-family: font-family: 'Noto Serif', serif;
+	text-decoration: none;
+	color: #A6BB8D;
+	font-weight: bold;
+}
+a:hover {
+	color: #3C6255;
+}
+
+/*Custom design with class*/
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media (max-widht: 960px) {
+	.container {
+		width: 700px;
+	}
+}
+
+@media (max-widht: 720px) {
+	.container {
+		width: 500px;
+	}
+}
+
+@media (max-widht: 540px) {
+	.container {
+		width: 350px;
+	}
+}
+
+.card-white {
+	padding: 60px;
+    background-color: white;
+    margin: 20px 0px;
+    box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+    border-radius: 7px;
+    text-align: center;
+}
+
+.img-circle {
+	border-radius: 35%;
+    width: 300px;
+    height: 300px;
+}
+
+.btn-blue {
+	background-color: #A6BB8D;
+	color: white;
+	padding: 12px 20px;
+	border-radius: 4px;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 50px;
+}
+
+#introduction p {
+	margin-bottom: 40px;
+}
+
+
+
+
+
